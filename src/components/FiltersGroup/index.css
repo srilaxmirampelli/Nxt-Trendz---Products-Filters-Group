@@ -1,0 +1,98 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+}
+.search-bar {
+  border: none;
+  background-color: transparent;
+  color: #475569;
+  font-weight: 500;
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
+.search-icon {
+  color: #64748b;
+}
+.category-heading {
+  color: #12022f;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}
+.category-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-btn {
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 18px;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.category-name {
+  margin: 0;
+}
+.rating-holder {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  color: #64748b;
+}
+.add-color {
+  color: #0967d2;
+  font-weight: 500;
+}
+.rating-image {
+  width: 110px;
+  height: 20px;
+}
+.up {
+  margin-left: 10px;
+}
+.clear-btn {
+  color: #0967d2;
+  background-color: white;
+  border: 2px solid #0967d2;
+  border-radius: 4px;
+  padding: 9px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 10px;
+}
